@@ -4,24 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+   <link rel="stylesheet" href="./main.css">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
 </head>
-<body style="font-size: 20px; padding-left: 20px;">
-   <h1 style="font-size: 30px;">Вакансия: Junior Frontend Developer </h1>
-   <div class="resume-header" style="display: inline;">
-      <img src="D:\Users\813941\Documents\test\avatar.jpg" width="200" height="200"  alt="Фотография" style="border: 2px solid black;">
-        
-       <span style="position: absolute; padding: 20px 25px;">
-       <h2">Киселева Варвара Борисовна</h2>
+<body>
+   
+   <h1>Вакансия: Junior Frontend Developer </h1>
+   <form action="">
+   <div class="resume-header">
+      
+    <div class="avatar">
+        <img  src="https://image.freepik.com/free-vector/cute-dog-head-avatar_79416-67.jpg" >
+    </div>
+     <div class="aboutme">  
+       <p>Киселева Варвара Борисовна</p>
        <p><a href="git@github.com:Kiselfest/summarytest.git">Сылка  на github</a></p>
        <p>Опыт работы: нет</p>
-       </span>
-   </div> 
-   <form action="" style="margin-top: 20px;">
-    <label for="date">Дата собеседования:</label>
+        </div>  
+    </div> 
+  
+    <br><span>Дата собеседования:</span>
      <input type="date" id="date" name="td">
-   </form>
-
-    <form action="">
+       
     <p> Уровень английского</p>
         <input id="Bad" type="radio" name="
         choice">
@@ -35,7 +39,7 @@
         <input id="Excellent" type="radio" name="
         choice">
         <label for="Excellent">Отлично</label>
-    </form>
+    
     
     <ul style="margin-left:-20px;">
         <p style="margin-left: -20px;">Ключевые навыки:<p>
@@ -44,11 +48,11 @@
         <li>JavaScript</li>
            
     </ul>
-    <form action="">
+    
         <input type="text" name="" id="">
-        <input type="button" value="Добавить в список">
-    </form>
-    <form action="">
+        <input class="btn" type="button" value="Добавить в список">
+    
+    
         <p>Коммуникабельность: 
             <select name="select" id="" style="width:200px; height: 25px;" >
                 <option value="v1">Высокий уровень</option>
@@ -56,13 +60,12 @@
                 <option value="v3">Низкий уровень</option>
             </select>
         </p>
-    </form>
+    
 
-    <form action="">
+   
         <p>Желаемая зп:<input type="text" style="margin-left: 10px;"></p>
         
-    </form>
-    <form action="">
+    
         <p>Подходит по критериям:</p>
         <input type="checkbox" name="criteria" id="kr1">
         <label for="kr1">Знание английского</label>
@@ -72,9 +75,9 @@
         <label for="kr3">Навыки</label>
         <input type="checkbox" name="criteria" id="kr4">
         <label for="kr4">Сразу видно, что свой человек</label>
-    </form>
-    <table border="1" cellpadding="5" style="border-collapse: collapse; border: 1px solid black; margin-top: 15px;">
-        <caption style="text-align:left; margin-bottom: 10px;">Оброзование, курсы и т.п.</caption>
+    
+    <table border="1" cellpadding="5" style="border-collapse: collapse; border: 1px solid black;">
+        <caption>Оброзование, курсы и т.п.</caption>
         <tr>
             <th>#</th>
             <th>Сроки обучения</th>
@@ -91,8 +94,9 @@
             <td>Санкт-Петербургская Школа Телевидения!</td>
         </tr>
     </table>
-   
-</div>
-   
+    <input class="btn" type="button" value="Отправить">
+
+</form>
+  
 </body>
 </html>

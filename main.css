@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+font-family:'Montserrat';
+font-size: 20px;
+background: linear-gradient(to top right, #fff,rgb(147, 178, 224));
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    margin-left: 20px;
+}
+p{
+    font-style: italic;
+}
+.resume-header{
+    display: inline;
+}
+.aboutme,
+.avatar{
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;  
+}
+.aboutme p:first-child{
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+}
+.aboutme p:nth-child(3){
+    font-size: 18px;
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+    font-weight: 600;
+    font-style: normal;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+img:hover{
+    animation-duration: 2s;
+    animation-name: rotation;
+}
+@keyframes rotation {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}
+
+.btn{
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: darkblue;
+}
+form{
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 20PX 20px;
+    background-color: white;
+}
+table{
+    margin: 20px 0;
+}
+caption{
+    text-align:left; 
+    margin: 10px 0;
+    font-weight: 600;
+    font-style: italic;
+}
+tr:hover {
+    background-color: deepskyblue;
+}
+
